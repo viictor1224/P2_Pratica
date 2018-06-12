@@ -1,0 +1,199 @@
+<html>
+
+<head>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+    <title>Easy Hamburgui</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+
+
+    <script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+
+    <script src="js/jquery.easeScroll.js"></script>
+
+
+</head>
+
+<body>
+    <div id="fullpage">
+        <section id="bg-header" class="section">
+            <nav>
+                <div class="container pt-3">
+                    <div class="row navbar-dark navbar-expand-lg">
+                        <div class="col">
+                            <a href="#" class="navbar-brand"><h2>Easy Hamburgui</h2>
+                                <span class="text-info"></span>
+                            </a>
+                        </div>
+                        <div class="col-3">
+                            <ul class="navbar-nav">
+                                <li class="navbar-item">
+                                    <a href="#   " >Unidades     </a>
+                                </li>
+                                <li class="navbar-item">
+                                    <a class="navbar-item" href="#cardapio   " >Cardápio     </a>
+                                </li>
+                                <li class="navbar-item">
+                                    <a class="navbar-item" href="#horario   " >Horário de Atendimento     </a>
+                                </li>
+                                <li class="navbar-item">
+                                    <a class="navbar-item" href="#contato   " >Contato     </a>
+                                    
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <header>
+                <div class="container">
+                    <div class="row py-5 my-0"></div>
+                    <div class="row">
+                        <div class="col-lg-5 offset-0">
+                            <div class="container" id="plan">
+                                <div class="row" id="line"></div>
+                                <div class="row ml-2">
+                                    <p class="h4 pt-5">Faça seu Pedido</p>
+                                </div>
+                                <div class="row d-flex justify-content-center">
+                                    <form>
+                                        <div class="form-group row">
+                                            <label class="col-form-label text-muted">Selecione cidade</label>
+                                            <select class="custom-select" id="inputGroupSelect01">
+                                                <option selected>Cidade</option>
+                                                <option value="1">São Bernardo do Campo</option>
+                                                <option value="2">São Caetano do Sul</option>
+                                                <option value="3">Santo André</option>
+                                                <option value="4">Diadema</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="form-group row">
+                                            <label class="col-form-label text-muted">Faixa de Preço</label>
+                                            <select class="custom-select" id="inputGroupSelect01">
+                                                <option selected>Preço</option>
+                                                <option value="1">Até R$30</option>
+                                                <option value="2">R$31 à R$50</option>
+                                                <option value="3">Mais de R$50</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="form-group row mb-5 ">
+                                            <label class="col-form-label text-muted">Tipos de Carne</label>
+                                            <select class="custom-select" id="inputGroupSelect01">
+                                                <option selected>Carne</option>
+                                                <option value="1">Fraldinha</option>
+                                                <option value="2">Patinho</option>
+                                                <option value="3">Coxão Duro</option>
+                                                <option value="3">Alcatra</option>
+                                            </select>
+                                        </div>
+
+
+
+                                        <div class="row pb-0" id="enviar">
+                                            <button type="submit" class="btn btn-info btn-block">Enviar</button>
+                                        </div>
+
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-3 mb-5"></div>
+                </div>
+            </header>
+        </section>
+        <section>
+            <div class="row"> <a name="cardapio"></a>
+                <div class="col-3 pb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/img_2.jpg" alt="Card image cap">
+                        <div class="card-body text-center">
+                               
+                            <h5 class="card-title text-info">Bacon Supreme</h5>
+                            <p class="card-text">
+                                PÃO DE HAMBURGER, 160GR DE CARNE ANGUS, QUEIJO CHEDDAR DUPLO GRATINADO NO MAÇARICO, MOLHO BARBECUE ARTESANAL E BACON.
+                            </p>
+                            <a href="#" class="btn btn-dark">Peça para viagem</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3 pb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/img_3.jpg" alt="Card image cap">
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-info">Hamburguer Fit</h5>
+                            <p class="card-text">
+                                PÃO DE HAMBURGER INTEGRAL, 150GR DE CARNE ANGUS DE PATINHO (MENOS GORDURA), CEBOLA ROXA, TOMATE, ALFACE AMERICANA E MUSSARELA
+                                LIGHT.
+                            </p>
+                            <a href="#" class="btn btn-dark">Peça para viagem</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3 pb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/img_4.jpg" alt="Card image cap">
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-info">Shimeji Burguer</h5>
+                            <p class="card-text">
+                                PÃO DE BRIOCHE, BURGER FEITO COM SHIMEJI, SHITAKE E COGUMELO PARIS, QUEIJO EMENTAL DERRETIDO, MAIONESE DE WASABI, ALFACE
+                                AMERICANA, TOMATE E CEBOLA CARAMELIZADA.
+                            </p>
+                            <a href="#" class="btn btn-dark">Peça para viagem</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-3 pb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/img_5.jpg" alt="Card image cap">
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-info">Triplo Bacon</h5>
+                            <p class="card-text">
+                                PÃO DE BRIOCHE, 3 BURGERS DE 160GR CADA, 6 FATIAS DE QUEIJO CHEDDAR, TOMATE, CEBOLA ROXA, ALFACE AMERICANA, BAOCN E MAIONESE
+                                ARTESANAL.
+                            </p>
+                            <a href="#" class="btn btn-dark">Peça para viagem</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </div>
+    </div>  
+
+    <a name="horario"></a>
+    <p>
+        <h4>Horário de Atendimento</p>
+    <p>Seg à sex: 10h às 20h
+    </p>
+    </h5>
+
+    <footer>
+            <a name="contato"></a>
+        <p>
+            <h5>Criado por: Victor Xavier</p>
+        <p>Informação do contato:
+            <a href="mailto:victor@xavier.com">victor@xavier.com</a>
+        </p>
+        </h5>
+        <p>Observação: Esse rodapé não é suportado no Internet Explorer 8 ou versões anteriores.</p>
+    </footer>
+
+
+    
+
+</body>
+
+</html>
